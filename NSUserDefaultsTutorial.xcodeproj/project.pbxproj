@@ -16,6 +16,8 @@
 		2F2154A613F20D0C009C2A4E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2154A413F20D0C009C2A4E /* MainWindow.xib */; };
 		2F2154A913F20D0C009C2A4E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2154A813F20D0C009C2A4E /* RootViewController.m */; };
 		2F2154AC13F20D0C009C2A4E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2154AA13F20D0C009C2A4E /* RootViewController.xib */; };
+		2F2154B513F20ED9009C2A4E /* EditEmailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2154B313F20ED9009C2A4E /* EditEmailVC.m */; };
+		2F2154B613F20ED9009C2A4E /* EditEmailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2154B413F20ED9009C2A4E /* EditEmailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +25,19 @@
 		2F21549213F20D0C009C2A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F21549413F20D0C009C2A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F21549613F20D0C009C2A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F21549A13F20D0C009C2A4E /* NSUserDefaultsTutorial-Info.plist */ = {isa = PBXFileReference; path = "NSUserDefaultsTutorial-Info.plist"; sourceTree = "<group>"; };
+		2F21549A13F20D0C009C2A4E /* NSUserDefaultsTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSUserDefaultsTutorial-Info.plist"; sourceTree = "<group>"; };
 		2F21549C13F20D0C009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F21549E13F20D0C009C2A4E /* NSUserDefaultsTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "NSUserDefaultsTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2F21549E13F20D0C009C2A4E /* NSUserDefaultsTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSUserDefaultsTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		2F21549F13F20D0C009C2A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F2154A113F20D0C009C2A4E /* NSUserDefaultsTutorialAppDelegate.h */ = {isa = PBXFileReference; path = NSUserDefaultsTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2F2154A113F20D0C009C2A4E /* NSUserDefaultsTutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSUserDefaultsTutorialAppDelegate.h; sourceTree = "<group>"; };
 		2F2154A213F20D0C009C2A4E /* NSUserDefaultsTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsTutorialAppDelegate.m; sourceTree = "<group>"; };
 		2F2154A513F20D0C009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F2154A713F20D0C009C2A4E /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		2F2154A713F20D0C009C2A4E /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		2F2154A813F20D0C009C2A4E /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		2F2154AB13F20D0C009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		2F2154B213F20ED9009C2A4E /* EditEmailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditEmailVC.h; sourceTree = "<group>"; };
+		2F2154B313F20ED9009C2A4E /* EditEmailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditEmailVC.m; sourceTree = "<group>"; };
+		2F2154B413F20ED9009C2A4E /* EditEmailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditEmailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +91,9 @@
 				2F2154A813F20D0C009C2A4E /* RootViewController.m */,
 				2F2154AA13F20D0C009C2A4E /* RootViewController.xib */,
 				2F21549913F20D0C009C2A4E /* Supporting Files */,
+				2F2154B213F20ED9009C2A4E /* EditEmailVC.h */,
+				2F2154B313F20ED9009C2A4E /* EditEmailVC.m */,
+				2F2154B413F20ED9009C2A4E /* EditEmailVC.xib */,
 			);
 			path = NSUserDefaultsTutorial;
 			sourceTree = "<group>";
@@ -151,6 +159,7 @@
 				2F21549D13F20D0C009C2A4E /* InfoPlist.strings in Resources */,
 				2F2154A613F20D0C009C2A4E /* MainWindow.xib in Resources */,
 				2F2154AC13F20D0C009C2A4E /* RootViewController.xib in Resources */,
+				2F2154B613F20ED9009C2A4E /* EditEmailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +173,7 @@
 				2F2154A013F20D0C009C2A4E /* main.m in Sources */,
 				2F2154A313F20D0C009C2A4E /* NSUserDefaultsTutorialAppDelegate.m in Sources */,
 				2F2154A913F20D0C009C2A4E /* RootViewController.m in Sources */,
+				2F2154B513F20ED9009C2A4E /* EditEmailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,5 +12,6 @@
 
 }
 
+-(IBAction) editEmail:(id)sender;
 
 @end

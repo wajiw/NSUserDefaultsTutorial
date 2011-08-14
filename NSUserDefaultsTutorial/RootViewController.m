@@ -7,12 +7,29 @@
 //
 
 #import "RootViewController.h"
+#import "EditEmailVC.h"
 
 @implementation RootViewController
+
+-(IBAction) editEmail:(id)sender
+{
+    EditEmailVC *viewController = [[EditEmailVC alloc] initWithNibName:@"EditEmailVC" bundle:[NSBundle mainBundle]];
+    [viewController setTitle:@"Edit Emailaaaaaaaaaaaaaa"];
+    [self.navigationController pushViewController:viewController animated:YES];
+    [viewController release];
+}
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *email = [[NSUserDefaults standardUserDefaults] stringForKey:@"MyEmail"];
+    
+    if(email != nil)
+    {
+        self.title = email;
+        [email release];
+    }
 }
 
 - (void)viewWillAppear:(BOOL)animated
